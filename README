@@ -1,0 +1,8 @@
+this is a very specific little script for the [crow by monome and whimsical raps](https://monome.org/docs/crow/)
+
+to take a 1v/oct signal and address some chords on [akemi's castle by alm busy circuits](https://busycircuits.com/alm011/).
+
+I use it to take the first octave of my sequencer keyboard to adress the chord of channel A of akemi's castle.
+
+Todo:
+map out the chord inversions and set up input 2 to address inversions
