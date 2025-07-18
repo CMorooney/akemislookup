@@ -1,8 +1,14 @@
 this is a very specific little script for the [crow by monome and whimsical raps](https://monome.org/docs/crow/)
 
-to take a 1v/oct signal and address some chords on [akemi's castle by alm busy circuits](https://busycircuits.com/alm011/).
+it's used to take a single 0-5v control voltage signal and address some matching chords on [akemi's](https://busycircuits.com/alm011/) and [sid's guts deluxe](https://busycircuits.com/alm012/) by alm busy circuits.
 
-I use it to take the first octave of my sequencer keyboard to adress the chord of channel A of akemi's castle.
+INPUT 1: 0-5v chord address
+INPUT 2: chord inversion address
+--
+OUTPUT 1: Sid's Guts Deluxe chord address
+OUTPUT 2: Sid's Guts Deluxe inversion address
+OUTPUT 3: Akemi's Castle chord address
+OUTPUT 4: Akemi's Castle inversion address
 
 Todo:
-map out the chord inversions and set up input 2 to address inversions
+- provide outline/mappings for Cizzle chords
