@@ -33,6 +33,26 @@
   -- 4.5v - 4.7v > detuned 
   -- 4.7v - 5.0v > detuned (2)
 
+-- CIZZLE :: CHORDS
+  -- 0.00v - 0.27v > null/none
+  -- 0.27v - 0.55v > octave
+  -- 0.55v - 0.83v > 5ths
+  -- 0.83v - 1.11v > Major
+  -- 1.11v - 1.38v > dominant 7
+  -- 1.38v - 1.66v > Major 7
+  -- 1.66v - 1.94v > Major 9
+  -- 1.94v - 2.22v > minor 9
+  -- 2.22v - 2.50v > minor 7
+  -- 2.50v - 2.77v > minor 6
+  -- 2.77v - 3.05v > minor 4
+  -- 3.05v - 3.33v > minor
+  -- 3.33v - 3.61v > diminished
+  -- 3.61v - 3.88v > suspended
+  -- 3.88v - 4.16v > detuned
+  -- 4.16v - 4.44v > detuned (2)
+  -- 4.44v - 4.74v > detuned (3)
+  -- 4.72v - 5.00v > castle
+
 -- now we create lists of equal lengh for each module to sweep through for the single input cv
 CHORD_COUNT = 13
 akemi_chord_map = {
@@ -49,6 +69,22 @@ akemi_chord_map = {
   8.3, -- Maj/dominant 9
   9.0, -- dissonant
   10   -- dissonant
+}
+
+cizzle_chord_map = {
+  0,   -- null
+  0.6, -- 5ths
+  1,   -- Major
+  3.2, -- minor
+  3.7, -- suspended
+  0,   -- null
+  3.5, -- diminished
+  1.2, -- dominant 7
+  1.5, -- Major 7
+  2.4, -- minor 7
+  1.7, -- Maj/dominant 9
+  4.3, -- dissonant
+  4.6  -- dissonant
 }
 
 -- Sid's has a limited amount of chords, fallback to null/none where there is no comparable option to Akemi's

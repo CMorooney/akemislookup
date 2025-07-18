@@ -2,6 +2,11 @@ this is a very specific little script for the [crow by monome and whimsical raps
 
 it's used to take a single 0-5v control voltage signal and address some matching chords on [akemi's](https://busycircuits.com/alm011/) and [sid's guts deluxe](https://busycircuits.com/alm012/) by alm busy circuits.
 
+a chord map and voltage boundaries are provided in the lua code for [Cizzle](https://busycircuits.com/alm042/), but the code as run does not output any chord addres for that module -- be sure to edit the code as you need to if you want to address the cizzle and just have one chord inv output.
+
+
+the script as written now sets the following I/O:
+
 INPUT 1: 0-5v chord address
 INPUT 2: chord inversion address
 --
@@ -9,6 +14,3 @@ OUTPUT 1: Sid's Guts Deluxe chord address
 OUTPUT 2: Sid's Guts Deluxe inversion address
 OUTPUT 3: Akemi's Castle chord address
 OUTPUT 4: Akemi's Castle inversion address
-
-Todo:
-- provide outline/mappings for Cizzle chords
